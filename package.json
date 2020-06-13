@@ -19,7 +19,7 @@
     "react-material-ui-form-validator": "^2.0.10",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "recharts": "^1.8.5",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
@@ -29,11 +29,11 @@
   },
   "scripts": {
     "start": "PORT=8080 react-scripts start",
-    "build": "react-scripts docs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run npm",
-    "deployGH": "gh-pages -d docs"
+    "deployGH": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
